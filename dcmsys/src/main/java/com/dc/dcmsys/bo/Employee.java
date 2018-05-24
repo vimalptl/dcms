@@ -1,6 +1,6 @@
 package com.dc.dcmsys.bo;
 
-public class Employee {
+public class Employee implements java.io.Serializable{
 	private String employeeId;
 	private String employeeName;
 	public String getEmployeeId() {
